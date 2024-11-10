@@ -1,0 +1,23 @@
+{
+  "name": "VimConf2024-LT",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Omochice",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'build'",
+    "clean": "rimraf dist",
+    "fmt": "npm-run-all2 --parallel fmt:*",
+    "fmt:package": "sort-package-json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.0.3",
+    "npm-run-all2": "^7.0.1",
+    "rimraf": "^6.0.1",
+    "sort-package-json": "^2.10.1"
+  }
+}
