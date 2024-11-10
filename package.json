@@ -8,7 +8,9 @@
   "author": "Omochice",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'build'",
+    "build": "npm-run-all2 build:*",
+    "build:html": "marp slide.md -o dist/index.html",
+    "build:pdf": "marp slide.md -o dist/slide.pdf",
     "clean": "rimraf dist",
     "fmt": "npm-run-all2 --parallel fmt:*",
     "fmt:package": "sort-package-json",
