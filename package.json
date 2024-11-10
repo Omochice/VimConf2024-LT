@@ -10,7 +10,7 @@
     "dev": "marp --allow-local-files --watch --server src",
     "build": "npm-run-all2 build:*",
     "build:html": "marp --allow-local-files src/pitchme.md -o dist/index.html",
-    "build:pdf": "marp --allow-local-files src/pitchme.md -o dist/slide.pdf",
+    "build:pdf": "marp --allow-local-files --pdf-notes src/pitchme.md -o dist/slide.pdf",
     "build:note": "marp --allow-local-files src/pitchme.md -o dist/note.txt",
     "clean": "rimraf dist",
     "fmt": "npm-run-all2 --parallel fmt:*",
