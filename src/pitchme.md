@@ -13,6 +13,8 @@ style: |
 
 # .vimrc and my belief about it
 
+VimConf2024 LT
+
 ---
 
 ## Notices
@@ -37,9 +39,11 @@ This inclides my personal aspirations
 
 Omochice
 
-社会人3年目
+3 years of employment with system enginner
 
 ---
+
+### My initial commit for .vimrc
 
 <style>
 img[alt="my-vimrc-origin"] {
@@ -72,6 +76,8 @@ Student to Working adult
 
 ---
 
+#### Changes about vim
+
 <!--
 これが意味するのは
 - プラグインを試したり再発明する時間の喪失
@@ -83,21 +89,41 @@ Student to Working adult
 
 ---
 
-### My belief when I was student
+## My belief was changed
+
+---
+
+### My beliefs when I was student
 
 - Vim should be not cut off my thought
 - 可能な限り全ての作業をvimで完結させる
-
+- プラグインは常に最新を保つ
+- プラグインはgithubの大海を探って探す
 
 <!-- `vim` was changed "for hobby" to "for earning" -->
----
-
-###
-
 
 ---
 
-## What is your belief?
+### My beliefs on today
+
+- Vim should be not cut off my thought
+- 
+- 他人のvimrcを読んでよさそうなものをためしてみる
+- 
+
+---
+
+### changes
+
+---
+
+### not changes
+
+---
+
+---
+
+## What is your belief about vimrc?
 
 <!-- NOTE: このへんで4min+ちょっとぐらいがいいな -->
 
@@ -115,6 +141,8 @@ All your needs is known you only!
 ---
 
 Have a good vim journy!
+
+<!-- あなたとvimの旅路がいいものでありますように -->
 
 ---
 
