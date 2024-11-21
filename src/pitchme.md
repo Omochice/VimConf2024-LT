@@ -29,7 +29,7 @@ vimrcとそれについての私の信念
 This presentation is only _my opinion_
 
 <!--
-最初にお断りとお願いです
+最初にお断り
 
 このプレゼンテーションは私の個人的信念についてのものなのでこの会場にいる全員に適用できる考え方ではないのかなと思っています
 
@@ -49,7 +49,7 @@ This presentation is only _my opinion_
 
 Omochice
 
-3 years of employment with system enginner
+3 years of employment as a system enginner
 
 <!--
 おもちあいす です
@@ -76,7 +76,7 @@ img[alt="my-vimrc-origin"] {
 
 ---
 
-### Life stage was changed
+### Life stage has changed
 
 
 <!--
@@ -95,7 +95,7 @@ img[alt="my-vimrc-origin"] {
 
 #### Changes about Vim
 
-- Lost time for try plugins and re-inventing
+- Lost time for trying vim plugins and re-inventing
 - "Hobby tool" to "Tool for making money"
 
 <!--
@@ -109,64 +109,39 @@ img[alt="my-vimrc-origin"] {
 
 ---
 
-## My belief was changed
+## My belief has changed
 
 <!-- この変化に合わせて私のvimrcに対する信念も変化しました -->
-
----
-
-### My beliefs when I was student
-
-- Vim should not cut off my thought
-- Want to handle all task in Vim
-- Want to keep plugin latest
-- Search plugins from hosting services
-
-<!--
-学生のころはこんなことを考えていました
-
-たとえば
-
-- Vimが私の思考を邪魔する挙動はしないでほしい
-- 可能な限り全ての作業をvimで完結させたい
-- プラグインは常に最新を保つ
-- プラグインはホスティングサービスの宇宙の中から探す
--->
-
----
-
-### My beliefs on today
-
-- Vim should not cut off my thought
-- Want to call other tool for vim non-friendly data
-- Want to keep plugin latest
-- Learn plugins from other person's vimrc
-
-<!--
-対して今はこんなことを考えています
-
-- Vimが私の思考を邪魔する挙動はしないでほしい
-- Vimから扱いにくいデータはそれ用のツールをVimから呼び出したい
-- プラグインは常に最新を保つ
-- プラグインは自分と信念が近そうな人が使ってるものをvimrcを読んで見つけてくる
--->
 
 ---
 
 ### Changes
 
 - Want to handle all task in Vim
-  => Want to call other tool for vim non-friendly data
-- Search plugins from hosting services
+  => Want to call other tools for vim non-friendly data
+- Search plugins from online hosting services
   => Learn plugins from other person's vimrc
 
 <!--
-NOTE:
-- 扱いにくいデータをどうこうすることが増えたのでツールとの接点をどうvimで扱いやすくするか
-- 他の人のvimrcを読むとその人の信念が見えることがあって面白い
-    - vim/nvim両方でうごかそうとしている
-    - 環境依存のコマンドつかわない
-    - とか
+- Vimから扱いにくいデータに触れることが増えたので、すべてをVimのみで扱うのではなく、他のツールとどう協調させてVimから扱うかを考えています
+    - 具体的にはREST APIなどとどう連携させるか
+        - Shougoさんのddu.vimでRedMineのチケットを編集するためのsourceを作っていたりします
+- プラグインについて調べるときもプラグインそのもののコードを読むのと同じぐらいそれがどのように使われているかを調べるようになりました
+    - 余談ですが、他の人のvimrcを読むとその人の信念が見えることがあって面白いです
+        - vim/nvim両方でうごかそうとしている
+        - 環境依存のコマンドつかわない
+        - とか
+-->
+
+---
+
+![logo for reading-vimrc](https://vim-jp.org/reading-vimrc/images/logo.png)
+
+https://vim-jp.org/reading-vimrc/
+
+<!--
+- 毎週土曜日の夜にやっているvimrc読書会というものがあります
+    - 
 -->
 
 ---
@@ -174,17 +149,29 @@ NOTE:
 ### Not changes
 
 - Vim should not cut off my thought
-- Want to keep plugin latest
+- Keep plugins latest
+- Explicitly rather than implicitly
 
 <!--
-NOTE:
-- どうやらかなりこのあたりのsensivityは高いらしい
-- pluginの更新をながめる、設定を見直すのは心の拠り所
+次に変わらなかったものについてです
+
+- まず、vimが自分の思考をさえぎらないようにしています
+    - 派手なエフェクトも綺麗ですが、気がちらない程度にとどめています
+- プラグインはできるかぎりで最新を保つ
+    - Vimなどを動かしている環境などはすべて刻一刻と変化しつづけています
+    - それの変化に追従して初めて現状維持であると考えています
+- 暗黙で設定されているものではなく明示的に設定する
+    - ビルトインで設定されているマッピングや設定などvimには便利なものが沢山あります
+        - 便利ですが意図せずオペレータ待機になったりして思考がとまることがあるので自分でハンドリングできる範囲のマッピングのみのこしています
 -->
 
 ---
 
 ## Q.
+
+<!--
+さて、ここまで私の信念についておはなしをしてきましたが、ここで質問です
+-->
 
 ---
 
